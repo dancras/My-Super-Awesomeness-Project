@@ -1,6 +1,8 @@
 A project for shoe lovers
 ===================
 
+git config --global alias.hist "log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short"
+
 Copy git-completion.bash into ~/.bash-addons/
 
 Add the following to ~/.bash_profile :
