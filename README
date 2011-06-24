@@ -1,6 +1,13 @@
 A project for shoe lovers
 ===================
 
+Copy git-completion.bash into ~/.bash-addons/
+
+Add the following to ~/.bash_profile :
+
+source ~/.bash_addons/git-completion.bash
+PS1='\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;36m\]\W\[\033[00m\]$(__git_ps1 "(%s)") \$ '
+
        ________
     __(_____  <|
    (____ / <| <|
